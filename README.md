@@ -35,7 +35,7 @@ python3 main.py
 ```
 
 or 'python main.py' depending on your setup
-**Built-in test account**
-Username: alen123
-PIN: 2222
+## Built-in test account
+**Username: alen123
+**PIN: 2222
 
