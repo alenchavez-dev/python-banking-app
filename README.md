@@ -26,9 +26,10 @@ It was originally developed as part of a college course and later refactored and
 ---
 
 ## 🧪 How to Run
-
+```bash
 git clone https://github.com/alenchavez-dev/python-banking-app.git
 cd python-banking-app
+```
 python3 main.py   # or 'python main.py' depending on your setup
 
 # Built-in test account
