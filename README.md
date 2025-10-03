@@ -27,16 +27,11 @@ It was originally developed as part of a college course and later refactored and
 
 ## 🧪 How to Run
 
-1. **Clone the repository**  
-  git clone https://github.com/alenchavez-dev/python-banking-app.git
-  cd python-banking-app
-  python3 main.py   # or 'python main.py' depending on your setup
+git clone https://github.com/alenchavez-dev/python-banking-app.git
+cd python-banking-app
+python3 main.py   # or 'python main.py' depending on your setup
 
-2.
 # Built-in test account
 # Username: alen123
 # PIN: 2222
 
-The PIN is stored hashed in customers.json, but this account is provided so you can log in without creating a new one.
-
-Alternatively, you can create your own account from the main menu to test the full account creation + hashing flow.
