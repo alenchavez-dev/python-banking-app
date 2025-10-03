@@ -1,18 +1,44 @@
-# Banking Management System
+# 🏦 Python Banking App
 
-A console-based banking app that supports:
+A simple console-based banking application built with **Python**.  
+This project simulates a basic banking system with secure PIN hashing, account creation, checking/savings transactions, CSV transaction logging, and basic statistics.  
 
-- Create and delete accounts
-- Login with **hashed 4-digit PINs** (SHA-256)
-- Deposits and withdrawals for Checking (C) and Savings (S)
-- Persistent storage via `customers.json`
-- Optional **PIN reset** after 3 failed attempts
-- **Transaction logging to CSV** (`transactions.csv`)
-- **Statistics view** (averages & above-average users)
-- Clean, modular structure
+It was originally developed as part of a college course and later refactored and expanded to demonstrate clean code structure and practical security practices.
 
-## How to Run
-1. Ensure `main.py` and `customers.json` are in the same folder.
-2. Run:
+---
+
+## 🚀 Features
+
+- 🔐 **Secure 4-digit PIN hashing** (SHA-256) — no plaintext PINs stored  
+- 🧾 **Checking and Savings accounts** with deposits & withdrawals  
+- 🧠 **Basic account statistics** (average balances & above-average users)  
+- 📝 **CSV transaction logging** (auto-generated file)  
+- 👤 **Create/Delete accounts** interactively through the console menu
+
+---
+
+## 🧰 Tech Stack
+
+- **Language:** Python 3  
+- **Storage:** JSON (for accounts) + CSV (for transactions)  
+- **No external libraries** required — runs out of the box
+
+---
+
+## 🧪 How to Run
+
+1. **Clone the repository**  
    ```bash
-   python main.py
+   git clone https://github.com/alenchavez-dev/python-banking-app.git
+   cd python-banking-app
+2. Run the program
+   python3 main.py
+(or python main.py depending on your setup)
+
+3. Use the built-in account to test immediately:
+   Username: Alen Chavez
+   PIN: 2222
+
+The PIN is stored hashed in customers.json, but this account is provided so you can log in without creating a new one.
+
+Alternatively, you can create your own account from the main menu to test the full account creation + hashing flow.
