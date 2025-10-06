@@ -1,19 +1,17 @@
-# 🏦 Python Banking App (SQL Edition)
+# 🏦 Python SQL Banking App
 
-A simple console-based banking application built with **Python** and **SQLite**.  
-This project simulates a basic banking system with secure PIN hashing, persistent account storage, CSV transaction auditing, and built-in sample accounts for quick testing.  
-
-Originally created for a college course, it has been **fully refactored** to demonstrate clean architecture, database integration, and practical security practices suitable for portfolio use.
+A simple console-based **banking system built with Python and SQLite**, designed to showcase secure data handling, database integration, and clean code structure.  
+This project was originally built for a college course and later **refactored** to use SQL for persistent storage, along with CSV audit logging and preloaded test accounts for quick testing.
 
 ---
 
 ## 🚀 Features
 
 - 🔐 **Secure 4-digit PIN hashing** (SHA-256) — no plaintext PINs stored  
-- 🧾 **Checking and Savings accounts** with deposits, withdrawals, and live balance updates  
-- 🧠 **Basic statistics** — average balances and users above average  
-- 📝 **CSV transaction audit logging** — secondary log for transparency  
-- 🧍 **Create/Delete accounts** interactively through the console menu  
+- 🧾 **Checking and Savings accounts** with deposits, withdrawals, and balance updates  
+- 🧠 **Basic statistics** — view average balances and users above the average  
+- 📝 **CSV transaction audit logging** for transparent tracking  
+- 👤 **Interactive account creation and deletion** via the console menu  
 - 🧪 **Three preloaded test accounts** for instant use:
   - `alice` / PIN: `1111`  
   - `bob` / PIN: `2222`  
@@ -24,15 +22,15 @@ Originally created for a college course, it has been **fully refactored** to dem
 ## 🧰 Tech Stack
 
 - **Language:** Python 3  
-- **Database:** SQLite (persistent `bank.db` file generated automatically)  
-- **Audit Logging:** CSV (auto-generated `transactions.csv`)  
-- **No external libraries** — runs entirely with the Python standard library
+- **Database:** SQLite (`bank.db` created automatically)  
+- **Audit Logging:** CSV (`transactions.csv` auto-generated)  
+- **No external libraries** — runs out of the box using only the Python standard library
 
 ---
 
 ## 🧪 How to Run
 
 ```bash
-git clone https://github.com/alenchavez-dev/python-banking-app.git
-cd python-banking-app
+git clone https://github.com/alenchavez-dev/python-sql-banking-app.git
+cd python-sql-banking-app
 python3 main.py
